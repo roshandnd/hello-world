@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_roshandnd_hello_world_1706786317629-push-trigger-input-set
+  identifier: Build_roshandnd_hello_world_1706786317629pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_roshandnd_hello_world_1706786317629
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
