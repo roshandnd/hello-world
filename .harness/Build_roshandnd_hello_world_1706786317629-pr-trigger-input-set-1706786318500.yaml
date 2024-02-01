@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_roshandnd_hello_world_1706786317629-pr-trigger-input-set
+  identifier: Build_roshandnd_hello_world_1706786317629prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_roshandnd_hello_world_1706786317629
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
